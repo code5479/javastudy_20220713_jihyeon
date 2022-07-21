@@ -13,7 +13,7 @@ public class For4 {
 				String temp = address.substring(0,i);
 				if(temp.contains(" ")) {
 					index = temp.lastIndexOf(" ") + 1;
-					System.out.println(temp.substring(index, i));
+						System.out.println(temp.substring(index, i));
 					}else {
 						System.out.println(temp.substring(0,i));
 					}
