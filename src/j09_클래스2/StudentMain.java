@@ -11,6 +11,7 @@ public class StudentMain {
 		StudentService service = new StudentService(studentArray);
 		
 		while(service.showMainMenu()) {}
+		
 		System.out.println("프로그램 종료");
 
 	}

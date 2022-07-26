@@ -21,8 +21,8 @@ public class UserMain {
 		
 		UserService service =new UserService(UserArray);
 		
-		while(service.showmain()) {
-		}
+		while(service.showmain()) {}
+		
 		System.out.println("프로그램 종료");
 		
 	}
