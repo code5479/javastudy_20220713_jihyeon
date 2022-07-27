@@ -8,13 +8,13 @@ public class LgFactory extends Factory {
 	
 	@Override
 	public void start() {
-		System.out.println("LG");
+		System.out.print("LG ");
 		super.start();
 	}
 	
 	@Override
 	public void stop() {
-		System.out.println("LG");
+		System.out.print("LG ");
 		super.stop();
 	}
 	
