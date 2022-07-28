@@ -7,7 +7,7 @@ public class FactoryService {
 	
 	private Factory factory;
 	
-	public FactoryService(Factory factory) {
+	public FactoryService(Factory factory) {		//DI 의존성 주입
 		this.factory = factory;
 	}
 
