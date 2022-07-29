@@ -15,10 +15,10 @@ public class PersonMain {
 		}
 		
 		
-		Person person1 = new Person();    //왼쪽은 변수 오른쪽은 new(객체) Person(값)    .을 찍는걸 참조라고 함
-		
-		person1.setName("김준일");
-		System.out.println(person1.getName());
+//		Person person1 = new Person();    //왼쪽은 변수 오른쪽은 new(객체) Person(값)    .을 찍는걸 참조라고 함
+//		
+//		person1.setName("김준일");
+//		System.out.println(person1.getName());
 		
 		String name1 = "김준일";
 		String name2 = "서재효";
