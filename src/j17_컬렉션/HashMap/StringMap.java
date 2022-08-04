@@ -11,10 +11,10 @@ public class StringMap {
 		
 		HashMap<String, String> strMap2 = new HashMap<String, String>();
 		
-		strMap.put(1, "java");			//순서 없음
-		strMap.put(2, "java");			//key값은 중복 불가, value값은 중복 가능
-		strMap.put(3, "java");
-		strMap.put(4, "java");
+		strMap.put(10, "java");			//순서 없음
+		strMap.put(20, "java");			//key값은 중복 불가, value값은 중복 가능
+		strMap.put(30, "java");
+		strMap.put(40, "java");
 		
 		System.out.println(strMap);
 		
@@ -24,6 +24,8 @@ public class StringMap {
 		strMap2.put("d", "python");
 		
 		System.out.println(strMap2);
+		
+		strMap.get(10);
 		
 		Iterator<Integer> irKey = strMap.keySet().iterator();
 		while(irKey.hasNext()) {
