@@ -35,7 +35,7 @@ public class ClassTestMain2 {
 		}
 	
 		for(int i = 0; i<arrayA.length; i++) {
-			if(arrayA[i] instanceof ClassB) {
+			if(arrayA[i] instanceof ClassB) { 
 				ClassB b3 =(ClassB) arrayA[i];
 				b3.addData();
 			}else if(arrayA[i] instanceof ClassC) {
