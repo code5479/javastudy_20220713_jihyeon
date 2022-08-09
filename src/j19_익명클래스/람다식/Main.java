@@ -41,6 +41,24 @@ public class Main {
 		
 		System.out.println(plusMath4.calc(50.22, 10.1));
 		
+		System.out.println(test(0));
+		
 	}
+	
+	public static int test(int a) {
+		int result = 0;
+		a++;
+											//재귀함수
+		if(a != 10) {
+			System.out.println("a: " + a);
+			result = test(a);
+		}
+		System.out.println("result: " + result);
+		return result + a;
+	}
+	
+
+	
+	
 
 }
