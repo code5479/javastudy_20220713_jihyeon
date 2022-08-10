@@ -4,9 +4,9 @@ public class Constant {
 
 	public static void main(String[] args) {
 		
-		final int MAX_NUMBER;
-		final int MIN_NUMBER = 0;
-		
+		final int MAX_NUMBER;						//자료형(일반자료형 - int, double, char, boolean, 참조자료형 - class)
+		final int MIN_NUMBER = 0;					//변수 : 메모리 공간의 값을 바꿀 수 있는 것
+													//변수 : 메모리 공간의 값을 바꿀 수 없는 것
 		MAX_NUMBER = 100;
 		
 		

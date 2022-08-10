@@ -6,7 +6,7 @@ public class TestA {
 	String ta1;
 	
 	void testA1() {
-		System.out.println("TestA-1 메소드 호출");
+		System.out.println("TestA-1 메소드 호출");					//void앞에 없으면 default
 		System.out.println();
 	}
 	
